@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro MakerLab</title>
+    <link rel="icon" type="image/png" href="../images/logo-maker.jpg">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+  </head>
+  <body class="bg-question">
+    <div class="container">
+      <section class="question bg-white"><a href="new.html" type="submit" class="btn waves-effect waves-light"><i class="material-icons left">mode_edit</i>Nueva Pregunta</a>
+        <h2>Login devise en modal form</h2>
+        <p>¿Como puedo hacer para que los formularios de login y registro de devise se desplieguen en una ventana modal (popup)?, obviamente ocupando bootstrap.</p>
+        <h3>2 Respuestas</h3>
+        <div class="answer">
+          <div class="row align-left">
+            <div class="col s2">
+              <div class="imagen"><img src="../images/pedro-face.jpg" class="circle responsive-img"></div>
+            </div>
+            <div class="col s10">
+              <h4>Un objeto no definido</h4>
+              <h5>Pedro</h5>
+              <p>Hola! Consultando un poco sobre el error "Call to a member function on a non-object" encontré que hace referencia a cuando se pretende acceder a métodos o atributos de un objeto no inicializado, algo así como el error de puntero nulo de java. Analizando el código, el error puede estar en el archivo Estudiante.php ya que no se está inicializando el atributo $con, que es el que contiene el método consultaRetorno(), que está relacionado en el error. Creo que le hace falta colocar el constructor de la clase Estudiante, e inicializar la conexión.</p>
+              <input href="form-control" type="text" name="answer" placeholder="Responder">
+              <button type="submit" class="btn waves-effect waves-light">Responder<i class="material-icons right">send</i></button>
+              <div class="comment">
+                <div class="row alig-left">
+                  <div class="col s2"><img src="../images/amiguito.jpg" class="circle responsive-img"></div>
+                  <div class="col s10">
+                    <h5>Amiguito</h5>
+                    <p>Encontre la Respuesta amigo , el error se encontraba en mi HTML , pues la instruccion para agregar el .js lo colocaba antes del entonces la solucion es primero dejar que cargue el html , ya que de lo contrario mi getElemnt.... no encuentra nada porque aun no carga nada</p>
+                  </div>
+                </div>
+              </div>
+              <div class="comment">
+                <div class="row alig-left">
+                  <div class="col s2"><img src="../images/elvis-face.jpg" class="circle responsive-img"></div>
+                  <div class="col s10">
+                    <h5>Elvis</h5>
+                    <p>Me alegro de que lo hayas solucionado. Saludos</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="answer">
+          <div class="row align-left">
+            <div class="col s2">
+              <div class="imagen"><img src="../images/paty-face.jpg" class="circle responsive-img"></div>
+            </div>
+            <div class="col s10">
+              <h5>Paty</h5>
+              <p>Cargué el javascript antes del cierre del body, para que no "entrampe" la carga del html en el navegador. No lo leas!</p>
+              <input type="text" name="answer" placeholder="Responder">
+              <button type="submit" class="btn waves-effect waves-light">Responder<i class="material-icons right">send</i></button>
+            </div>
+          </div>
+        </div><i class="material-icons left">comment</i>
+        <h5>Escribe aquí tu respuesta</h5>
+        <input placeholder="Título de tu respuesta" type="text">
+        <textarea placeholder="Escribe aquí tu respuesta" type="text"></textarea>
+        <button type="submit" class="btn waves-effect waves-light">Enviar</button>
+      </section>
+    </div>
+    <footer>
+      <div class="row">
+        <div class="col s4 left-align"><img src="../images/logo-maker.jpg"></div>
+        <div class="col s4 center-align">
+          <p>"Aprende en Comunidad"</p>
+        </div>
+        <div class="col s4 right-align">
+          <p>irina.avila@pucp.pe</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
