@@ -1,0 +1,9 @@
+v2.
+{<<"/home/patty/Escritorio/foro/foroMakerlab/_build/dev/lib/mime/ebin/Elixir.MIME.beam">>,
+ 'Elixir.MIME',module,<<"lib/mime.ex">>,
+ ['Elixir.File','Elixir.Kernel.Typespec',erlang,'Elixir.String','Elixir.Enum',
+  'Elixir.Module','Elixir.String.Chars','Elixir.Application','Elixir.List',
+  'Elixir.Kernel','Elixir.Path'],
+ [],
+ [<<"lib/mime.types">>],
+ nil}.

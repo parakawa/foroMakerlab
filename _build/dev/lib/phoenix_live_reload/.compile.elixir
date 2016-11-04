@@ -1,0 +1,24 @@
+v2.
+{<<"/home/patty/Escritorio/foro/foroMakerlab/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.Socket.beam">>,
+ 'Elixir.Phoenix.LiveReloader.Socket',module,
+ <<"lib/phoenix_live_reload/socket.ex">>,
+ ['Elixir.Phoenix.Socket','Elixir.Module',
+  'Elixir.Phoenix.Transports.WebSocket','Elixir.Phoenix.Transports.LongPoll',
+  'Elixir.Phoenix','Elixir.Kernel'],
+ [],[],nil}.
+{<<"/home/patty/Escritorio/foro/foroMakerlab/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReload.Channel.beam">>,
+ 'Elixir.Phoenix.LiveReload.Channel',module,
+ <<"lib/phoenix_live_reload/channel.ex">>,
+ ['Elixir.Phoenix.Channel','Elixir.Phoenix.Socket','Elixir.Module',
+  'Elixir.Logger','Elixir.Kernel'],
+ [erlang,'Elixir.String','Elixir.Enum',fs,'Elixir.String.Chars',
+  'Elixir.Application','Elixir.Access','Elixir.Path'],
+ [],nil}.
+{<<"/home/patty/Escritorio/foro/foroMakerlab/_build/dev/lib/phoenix_live_reload/ebin/Elixir.Phoenix.LiveReloader.beam">>,
+ 'Elixir.Phoenix.LiveReloader',module,
+ <<"lib/phoenix_live_reload/live_reloader.ex">>,
+ ['Elixir.File','Elixir.Module','Elixir.Plug','Elixir.Application',
+  'Elixir.Plug.Conn','Elixir.Kernel'],
+ [erlang,'Elixir.String','Elixir.Enum','Elixir.String.Chars','Elixir.Access',
+  'Elixir.Map'],
+ [],nil}.

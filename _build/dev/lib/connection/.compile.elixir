@@ -1,0 +1,9 @@
+v2.
+{<<"/home/patty/Escritorio/foro/foroMakerlab/_build/dev/lib/connection/ebin/Elixir.Connection.beam">>,
+ 'Elixir.Connection',module,<<"lib/connection.ex">>,
+ ['Elixir.Kernel.Typespec','Elixir.GenServer',erlang,'Elixir.Keyword',
+  'Elixir.Module','Elixir.String.Chars','Elixir.Protocol',
+  'Elixir.ArgumentError','Elixir.Kernel.Utils','Elixir.List','Elixir.Kernel'],
+ [code,'Elixir.Process',proc_lib,gen_server,gen,global,error_logger,
+  'Elixir.System'],
+ [],nil}.
