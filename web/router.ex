@@ -18,6 +18,7 @@ defmodule ForoMakerlab.Router do
 
     get "/", PageController, :index
     resources "/users", UserController
+    resources "/new", UserController
 
   end
 
