@@ -3,7 +3,7 @@ defmodule ForoMakerlab.UserTest do
 
   alias ForoMakerlab.User
 
-  @valid_attrs %{bio: "some content", email: "some content", name: "some content", number_of_pets: 42}
+  @valid_attrs %{email: "some content", is_admin: true, nombre: "some content"}
   @invalid_attrs %{}
 
   test "changeset with valid attributes" do

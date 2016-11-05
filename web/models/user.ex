@@ -2,11 +2,11 @@ defmodule ForoMakerlab.User do
   use ForoMakerlab.Web, :model
 
   schema "users" do
-    field :name, :string
+    field :nombre, :string
     field :email, :string
-    field :bio, :string
-    field :number_of_pets, :integer
+    field :is_admin, :boolean, default: false
 
+    has_many :authorizations, ForoMakerlab.Authorization
     timestamps()
   end
 
@@ -15,7 +15,7 @@ defmodule ForoMakerlab.User do
   """
   def changeset(struct, params \\ %{}) do
     struct
-    |> cast(params, [:name, :email, :bio, :number_of_pets])
-    |> validate_required([:name, :email, :bio, :number_of_pets])
+    |> cast(params, [:nombre, :email, :is_admin])
+    |> validate_required([:nombre, :email, :is_admin])
   end
 end

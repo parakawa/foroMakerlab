@@ -21,6 +21,13 @@ defmodule ForoMakerlab.Router do
 
   end
 
+  scope "/auth", ForoMakerlab do
+    pipe_through :browser
+
+    get "/:provider", AuthController, :request
+    get "/:provider/callback", AuthController, :callback
+  end
+
   # Other scopes may use custom stacks.
   # scope "/api", ForoMakerlab do
   #   pipe_through :api

@@ -1,0 +1,24 @@
+v2.
+{<<"/home/patty/Escritorio/foroMakerlab/_build/dev/lib/ueberauth_github/ebin/Elixir.UeberauthGithub.beam">>,
+ 'Elixir.UeberauthGithub',module,<<"lib/ueber_github.ex">>,
+ ['Elixir.Kernel'],
+ [],[],nil}.
+{<<"/home/patty/Escritorio/foroMakerlab/_build/dev/lib/ueberauth_github/ebin/Elixir.Ueberauth.Strategy.Github.OAuth.beam">>,
+ 'Elixir.Ueberauth.Strategy.Github.OAuth',module,
+ <<"lib/ueberauth/strategy/github/oauth.ex">>,
+ ['Elixir.OAuth2.Strategy','Elixir.OAuth2.Client','Elixir.Module',
+  'Elixir.Kernel'],
+ ['Elixir.OAuth2.Strategy.AuthCode','Elixir.Keyword','Elixir.Application',
+  'Elixir.Dict'],
+ [],nil}.
+{<<"/home/patty/Escritorio/foroMakerlab/_build/dev/lib/ueberauth_github/ebin/Elixir.Ueberauth.Strategy.Github.beam">>,
+ 'Elixir.Ueberauth.Strategy.Github',module,
+ <<"lib/ueberauth/strategy/github.ex">>,
+ ['Elixir.Ueberauth.Strategy.Helpers','Elixir.Plug.Conn',
+  'Elixir.Ueberauth.Auth.Extra','Elixir.Ueberauth.Strategy','Elixir.Module',
+  'Elixir.OAuth2.Error','Elixir.Ueberauth.Auth.Credentials',
+  'Elixir.OAuth2.Response','Elixir.Ueberauth.Auth.Info','Elixir.Kernel'],
+ [erlang,'Elixir.Ueberauth.Auth','Elixir.String','Elixir.Keyword',
+  'Elixir.OAuth2.AccessToken','Elixir.String.Chars',
+  'Elixir.Ueberauth.Strategy.Github.OAuth','Elixir.Dict','Elixir.Access'],
+ [],nil}.

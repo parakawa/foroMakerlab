@@ -2,7 +2,10 @@
              [{registered,[]},
               {description,"foroMakerlab"},
               {vsn,"0.0.1"},
-              {modules,['Elixir.ForoMakerlab','Elixir.ForoMakerlab.Endpoint',
+              {modules,['Elixir.ForoMakerlab',
+                        'Elixir.ForoMakerlab.AuthController',
+                        'Elixir.ForoMakerlab.Authorization',
+                        'Elixir.ForoMakerlab.Endpoint',
                         'Elixir.ForoMakerlab.ErrorHelpers',
                         'Elixir.ForoMakerlab.ErrorView',
                         'Elixir.ForoMakerlab.Gettext',
@@ -20,4 +23,4 @@
               {mod,{'Elixir.ForoMakerlab',[]}},
               {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
                              phoenix_html,cowboy,logger,gettext,phoenix_ecto,
-                             postgrex]}]}.
+                             postgrex,ueberauth_github]}]}.

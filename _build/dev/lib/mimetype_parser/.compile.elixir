@@ -1,0 +1,15 @@
+v2.
+{<<"/home/patty/Escritorio/foroMakerlab/_build/dev/lib/mimetype_parser/ebin/Elixir.MimetypeParser.Exception.beam">>,
+ 'Elixir.MimetypeParser.Exception',module,<<"lib/mimetype_parser.ex">>,
+ ['Elixir.Kernel.Typespec','Elixir.MimetypeParser',erlang,'Elixir.String',
+  'Elixir.Keyword','Elixir.Module','Elixir.Protocol','Elixir.Exception',
+  'Elixir.Kernel.Utils','Elixir.Kernel','Elixir.Map'],
+ [],[],nil}.
+{<<"/home/patty/Escritorio/foroMakerlab/_build/dev/lib/mimetype_parser/ebin/Elixir.MimetypeParser.beam">>,
+ 'Elixir.MimetypeParser',module,<<"lib/mimetype_parser.ex">>,
+ ['Elixir.Kernel.Typespec',erlang,'Elixir.String','Elixir.Keyword',
+  'Elixir.Module','Elixir.Protocol','Elixir.Exception','Elixir.Kernel.Utils',
+  'Elixir.Kernel','Elixir.Map'],
+ ['Elixir.String.Chars',mimetype_parser_lexer,
+  'Elixir.MimetypeParser.Exception',mimetype_parser],
+ [],nil}.

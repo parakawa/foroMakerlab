@@ -1,0 +1,13 @@
+{application,ueberauth,
+             [{registered,[]},
+              {description,"An Elixir Authentication System for Plug-based Web Applications"},
+              {vsn,"0.4.0"},
+              {modules,['Elixir.Ueberauth','Elixir.Ueberauth.Auth',
+                        'Elixir.Ueberauth.Auth.Credentials',
+                        'Elixir.Ueberauth.Auth.Extra',
+                        'Elixir.Ueberauth.Auth.Info',
+                        'Elixir.Ueberauth.Failure',
+                        'Elixir.Ueberauth.Failure.Error',
+                        'Elixir.Ueberauth.Strategy',
+                        'Elixir.Ueberauth.Strategy.Helpers']},
+              {applications,[kernel,stdlib,elixir,logger]}]}.
